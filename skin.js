@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.11/18043
 // Filename: test01.ggsk
-// Generated 2023-07-11T19:29:29
+// Generated 2023-07-11T19:38:48
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -10588,7 +10588,7 @@ function pano2vrSkin(player,base) {
 		els=me._config_button__img=document.createElement('img');
 		els.className='ggskin ggskin_config_button';
 		hs='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QHTaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA1LjYuMCI+CiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgIHhtcDpNZXRhZGF0YURhdGU9IjIwMj'+
-			'MtMDctMTFUMTk6Mjk6MjkrMDM6MDAiCiAgIHhtcDpNb2RpZnlEYXRlPSIyMDIzLTA3LTExVDE5OjI5OjI5KzAzOjAwIgogICB4bXA6Q3JlYXRvclRvb2w9IlBhbm8yVlIgNi4xLjExIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+/9sAQwD//////////////////////////////////////////////////////////////////////////////////////9sAQwH//////////////////////////////////////////////////////////////////////////////////////8AAEQgAHQAgAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYH'+
+			'MtMDctMTFUMTk6Mzg6NDgrMDM6MDAiCiAgIHhtcDpNb2RpZnlEYXRlPSIyMDIzLTA3LTExVDE5OjM4OjQ4KzAzOjAwIgogICB4bXA6Q3JlYXRvclRvb2w9IlBhbm8yVlIgNi4xLjExIi8+CiA8L3JkZjpSREY+CjwveDp4bXBtZXRhPgo8P3hwYWNrZXQgZW5kPSJyIj8+/9sAQwD//////////////////////////////////////////////////////////////////////////////////////9sAQwH//////////////////////////////////////////////////////////////////////////////////////8AAEQgAHQAgAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYH'+
 			'CAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4'+
 			'iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8ASigUetABj3oo7UlACiikooAXtSUUUAf/2Q==';
 		els.setAttribute('src',hs);
@@ -11941,9 +11941,6 @@ function pano2vrSkin(player,base) {
 					if (me._category_cloner.ggInstances[i]._category_text && me._category_cloner.ggInstances[i]._category_text.logicBlock_backgroundcolor) {
 						me._category_cloner.ggInstances[i]._category_text.logicBlock_backgroundcolor();
 					}
-					if (me._category_cloner.ggInstances[i]._category_text && me._category_cloner.ggInstances[i]._category_text.logicBlock_textcolor) {
-						me._category_cloner.ggInstances[i]._category_text.logicBlock_textcolor();
-					}
 				}
 			}
 		}
@@ -11951,11 +11948,11 @@ function pano2vrSkin(player,base) {
 			if(me._category_cloner.ggInstances) {
 				var i;
 				for(i = 0; i < me._category_cloner.ggInstances.length; i++) {
-					if (me._category_cloner.ggInstances[i]._category_text && me._category_cloner.ggInstances[i]._category_text.logicBlock_backgroundcolor) {
-						me._category_cloner.ggInstances[i]._category_text.logicBlock_backgroundcolor();
-					}
 					if (me._category_cloner.ggInstances[i]._category_text && me._category_cloner.ggInstances[i]._category_text.logicBlock_textcolor) {
 						me._category_cloner.ggInstances[i]._category_text.logicBlock_textcolor();
+					}
+					if (me._category_cloner.ggInstances[i]._category_text && me._category_cloner.ggInstances[i]._category_text.logicBlock_backgroundcolor) {
+						me._category_cloner.ggInstances[i]._category_text.logicBlock_backgroundcolor();
 					}
 				}
 			}
@@ -19611,10 +19608,10 @@ function pano2vrSkin(player,base) {
 				me._category_text.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
 				me._category_text__text.style[domTransition]='width 0s, height 0s, background-color 0s, color 0s';
 				if (me._category_text.ggCurrentLogicStateBackgroundColor == 0) {
-					me._category_text__text.style.backgroundColor="rgba(4,255,0,0.819608)";
+					me._category_text__text.style.backgroundColor="rgba(21,21,21,0.819608)";
 				}
 				else if (me._category_text.ggCurrentLogicStateBackgroundColor == 1) {
-					me._category_text__text.style.backgroundColor="rgba(21,21,21,0.784314)";
+					me._category_text__text.style.backgroundColor="rgba(4,255,0,0.784314)";
 				}
 				else {
 					me._category_text__text.style.backgroundColor="rgba(255,255,255,0.705882)";
@@ -19629,12 +19626,6 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateTextColor = 0;
 			}
-			else if (
-				((me.elementMouseOver['category_text'] == true))
-			)
-			{
-				newLogicStateTextColor = 1;
-			}
 			else {
 				newLogicStateTextColor = -1;
 			}
@@ -19642,10 +19633,7 @@ function pano2vrSkin(player,base) {
 				me._category_text.ggCurrentLogicStateTextColor = newLogicStateTextColor;
 				me._category_text__text.style[domTransition]='width 0s, height 0s, background-color 0s, color 0s';
 				if (me._category_text.ggCurrentLogicStateTextColor == 0) {
-					me._category_text__text.style.color="rgba(31,31,31,1)";
-				}
-				else if (me._category_text.ggCurrentLogicStateTextColor == 1) {
-					me._category_text__text.style.color="rgba(230,230,230,1)";
+					me._category_text__text.style.color="rgba(255,255,255,1)";
 				}
 				else {
 					me._category_text__text.style.color="rgba(47,47,47,1)";
@@ -19658,7 +19646,6 @@ function pano2vrSkin(player,base) {
 		me._category_text.onmouseover=function (e) {
 			me.elementMouseOver['category_text']=true;
 			me._category_text.logicBlock_backgroundcolor();
-			me._category_text.logicBlock_textcolor();
 		}
 		me._category_text.onmouseout=function (e) {
 			if (e && e.toElement) {
@@ -19670,12 +19657,10 @@ function pano2vrSkin(player,base) {
 			}
 			me.elementMouseOver['category_text']=false;
 			me._category_text.logicBlock_backgroundcolor();
-			me._category_text.logicBlock_textcolor();
 		}
 		me._category_text.ontouchend=function (e) {
 			me.elementMouseOver['category_text']=false;
 			me._category_text.logicBlock_backgroundcolor();
-			me._category_text.logicBlock_textcolor();
 		}
 		me._category_text.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
